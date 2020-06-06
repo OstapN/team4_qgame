@@ -21,7 +21,7 @@ type User struct {
 	Id        int64  `json:"id"`
 	FirstName string `json:"first_name"`
 	Username  string `json:"username"` //Note: another optional field
-	Rank      int64
+	Rank      int64  `json:"rank"`
 }
 
 //Point - We can save the location of the object with X and Y (For example, the location of the clan)

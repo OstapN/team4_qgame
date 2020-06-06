@@ -23,6 +23,8 @@ func checkOnCommands(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 			actions.StartCommand(&update, bot)
 		case betypes.HelpCommand:
 			msg.Text = betypes.HelpText
+		case betypes.ShowRankCommand:
+			actions.ShowRankCommand(&update, bot)
 		default:
 			msg.Text = betypes.UnclearCommandText
 		}

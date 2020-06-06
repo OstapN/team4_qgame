@@ -16,6 +16,11 @@ const (
 	HelpText    = "HELP_TEXT"
 )
 
+const (
+	ShowRankCommand = "me"
+	//ShowRankText    = "your rank is 10"
+)
+
 //Unclear command data
 const (
 	UnclearCommandText = "There is no such command"
